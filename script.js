@@ -169,7 +169,7 @@ function showIdea(activity){
 
 /* Get Idea Function- Input true from either form submit type*/
 async function getIdea(input){
-    let urlBeginning = 'http://www.boredapi.com/api/';
+    let urlBeginning = 'https://www.boredapi.com/api/';
     let personActivity = 'activity?participants=' + input;
     let url = urlBeginning + personActivity;
     let response = await fetch(url);
