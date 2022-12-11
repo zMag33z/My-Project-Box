@@ -1,5 +1,5 @@
 :root {
-    --OutputBB: #2E7D32;
+    --OutputBB: rgb(42, 121, 42);
     --myGradient: radial-gradient(rgb(151, 55, 55), rgb(76, 76, 135) 100%);
 }
 
