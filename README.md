@@ -6,6 +6,9 @@ This box was created to be included in a group class project.  Is live to show f
 
 ![Bored Box](./assets/boredbox1.png)
 
+## Resources
+### [Bored API](http://www.boredapi.com/documentation)
+
 ## Credits
 
 ### [Crystal Ripple 'zMaG33z'](https://github.com/zMag33z)
