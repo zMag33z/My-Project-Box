@@ -1,11 +1,12 @@
 /* Bored Box */
-/*Api used - http://www.boredapi.com/documentation#endpoints-key */
+/*Api used - https://www.boredapi.com/documentation#endpoints-key */
 
 /* Targets used */
 const getitGoing = document.querySelector('#get-it-Going');
+const box = document.getElementById('box');
+const close = document.querySelector('.close');
 const activity = document.querySelector('.activity');
 const firstForm = document.querySelector('.first-Form');
-const close = document.querySelector('.close');
 const textSuggestion = document.getElementById('text-Suggestion');
 const userInput = document.getElementById('user-Input');
 const suggestSubmit = document.getElementById('suggest-Submit');
@@ -32,14 +33,13 @@ const myArray = [1, 2, 3, 4, 5];//may try the array again at some point
 
 /* Start Box Functioning */
 getitGoing.addEventListener('click', function(e){
-
+    box.style.display = 'block';
 startBox(e);
 })
 
 /* Close Bored Box */
 close.addEventListener('click', function(){
-    activity.style.display = 'none';
-    getitGoing.style.display = 'block';
+    box.style.display = 'none';
 })
 
 /* Function Beginning of Box */

@@ -12,5 +12,6 @@
 
 body {
     background-color:rgb(45, 45, 51);
+    width: 100vw;
+    height: 100vh;
 }
-
