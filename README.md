@@ -4,7 +4,7 @@
 
 This box was created to be included in a group class project.  Is live to show functionality before implementation.
 
-![Bored Box](./assets/boredbox1.png)
+ ![Bored Box](./assets/boredbox1.png)
 
 ## Resources
 ### [Bored API](http://www.boredapi.com/documentation)
@@ -16,4 +16,4 @@ This box was created to be included in a group class project.  Is live to show f
 
 ## License
 
-### [MIT License Copyright (c) 2022](https://zmag33z.github.io/My-Project-Box/license.md)
+### [MIT License Copyright (c) 2022](https://zmag33z.github.io/My-Project-Box/License.md)
