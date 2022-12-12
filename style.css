@@ -6,6 +6,7 @@
 
 
 /* Box contains all to their perspective positions */
+/* Change colors in utility root */
 /* BE SURE TO CHANGE SETTINGS FOR PROJECT */
 #box {
     width: 600px;
@@ -21,7 +22,7 @@
     height: 100%;
     position: relative;
     overflow:hidden;
-    background-image: var(--myGradient);
+    background-image: var(--myBGgradient);
     border-radius: 5px;
     opacity: 1;
     display: none;
@@ -141,13 +142,13 @@
     top: 0;
     right: 0;
     border-bottom-left-radius: 3px;
-    background: #bbb;
-    color: rgb(19, 19, 147);
+    background: var(--closeBG);
+    color: var(--buttonBG);
     padding: 6px 6px;
   }
   
 .close:hover {
-    background: rgb(144, 144, 144);
+    background: var(--closeBGH);
 }
 
 #checkOut {
@@ -164,7 +165,7 @@
     padding: 5px;
     font-size: 20px;
     text-align: center;
-    color: #9e9e9e;
+    color: var(--inputANDbuttonfont);
 }
 
 /* Second Section - ALL items           */
@@ -236,15 +237,15 @@
 }
 .mags-Btn {
     cursor: pointer;
-    background-color: rgb(19, 19, 147);
+    background-color: var(--buttonBG);
     font-size: 20px;
-    color: #9e9e9e;
+    color: var(--inputANDbuttonfont);
     border: none;
     border-radius: 5px;
     padding: 5px 10px 7px 10px;  
   }  
   .mags-Btn:hover {
-      background-color: purple;
+      background-color: var(--buttonBGH);
   }
   
 
